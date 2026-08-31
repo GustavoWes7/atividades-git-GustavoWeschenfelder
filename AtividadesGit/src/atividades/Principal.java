@@ -10,6 +10,9 @@ public class Principal {
         Calculadora calc = new Calculadora();
         System.out.println("Soma: " + calc.somar(5,10));
         
+        double[] notas = {7.5, 8.0, 9.5};
+        
+        System.out.println("Media: " + calc.media(notas));
     }
     
 }
