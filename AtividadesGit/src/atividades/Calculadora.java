@@ -7,6 +7,9 @@ public class Calculadora {
     }
     
     public double media (double[] valores){
+        if(valores == null || valores.length == 0){
+            return 0;
+        }
         
         double soma = 0;
         
