@@ -2,6 +2,10 @@ package atividades;
 
 public class Calculadora {
     
+    public String saudacao (String nome){
+        return "Ola, " + nome + "! Bem vindo ao sistema. ";
+    }
+    
     public double somar(double a, double b){
         return a + b;
     }

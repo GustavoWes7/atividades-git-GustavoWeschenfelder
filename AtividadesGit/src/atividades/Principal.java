@@ -11,8 +11,9 @@ public class Principal {
         System.out.println("Soma: " + calc.somar(5,10));
         
         double[] notas = {7.5, 8.0, 9.5};
-        
         System.out.println("Media: " + calc.media(notas));
+        
+        System.out.println(calc.saudacao("Gustavo"));
     }
     
 }
